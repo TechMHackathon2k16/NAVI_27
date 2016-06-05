@@ -1,0 +1,23 @@
+{
+  "name": "facebookbot",
+  "version": "1.0.0",
+  "description": "basic facebook bot app",
+  "main": "app.js",
+  "scripts": {
+    "start": "DEBUG='main:*' nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "facebook",
+    "bot"
+  ],
+  "author": "Nivesh Singh",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "redis": "^2.6.1",
+    "request": "^2.72.0"
+  }
+}
